@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(95, 95, 179, 0.729);
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+main {
+    background-color: rgba(89, 177, 89, 0.311);
+    padding: 40px;
+    padding-bottom: 40px;
+}
+
+.more {
+    background-color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    color: red;
+}
+
+.left,
+.reight {
+    display: inline-block;
+    max-width: 48%;
+    vertical-align: top;
+    padding: 20px;
+}
